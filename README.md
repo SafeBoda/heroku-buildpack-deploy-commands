@@ -1,1 +1,1 @@
-Run a shell script as part of a Heroku app build.
+Run a shell script during the creation of your Heroku slug.
