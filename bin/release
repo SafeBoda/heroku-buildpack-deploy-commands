@@ -1,2 +1,3 @@
-#!/bin/sh
-$1/herokureleasecommands.sh $1
+cat << EOF
+---
+EOF
