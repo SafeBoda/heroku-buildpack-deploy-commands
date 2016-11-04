@@ -1,7 +1,7 @@
 #!/bin/sh
 echo "This is the compile step."
-echo "Beginning deploy commands..."
+echo "Beginning compile commands..."
 # $1=BUILD_DIR $2=CACHE_DIR $3=ENV_DIR
 
-$1/herokudeploycommands.sh $1 $2 $3
-echo "Finished with deploy commands."
+$1/herokucompilecommands.sh $1 $2 $3
+echo "Finished with compile commands."
