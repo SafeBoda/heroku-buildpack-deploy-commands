@@ -1,6 +1,5 @@
 #!/bin/sh
 echo "This is the compile step."
-echo "Beginning deploy commands..."
-$1/herokudeploycommands.sh $1
-echo "Finished with deploy commands."
-
+echo "Beginning compile commands..."
+$1/herokucompilecommands.sh $1
+echo "Finished with compile commands."
