@@ -1,7 +1,2 @@
 #!/bin/sh
-echo "This is the release step."
-echo "Beginning release commands..."
-# $1=BUILD_DIR
-
 $1/herokureleasecommands.sh $1
-echo "Finished with release commands."
