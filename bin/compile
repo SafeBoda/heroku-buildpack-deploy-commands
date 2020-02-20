@@ -7,7 +7,7 @@ $1/herokudeploycommands.sh $1 $2 $3
 
 result=$?
 if [ $result -ne 0 ]; then
-   echo "The deploy commands has been failed"
+   echo "The deploy commands have failed"
 else
    echo "Finished with deploy commands"
 fi
