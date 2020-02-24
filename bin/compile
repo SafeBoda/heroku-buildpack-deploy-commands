@@ -4,4 +4,12 @@ echo "Beginning deploy commands..."
 # $1=BUILD_DIR $2=CACHE_DIR $3=ENV_DIR
 
 $1/herokudeploycommands.sh $1 $2 $3
-echo "Finished with deploy commands."
+
+result=$?
+if [ $result -ne 0 ]; then
+   echo "The deploy commands failed"
+else
+   echo "Finished with deploy commands"
+fi
+
+exit $result
